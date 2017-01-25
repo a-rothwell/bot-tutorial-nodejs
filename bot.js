@@ -107,7 +107,7 @@ else if(request.text && outside.test(request.text)){
   }
    else if(request.text && dogme.test(request.text)){
 	this.res.writeHead(200);
-  	PostImage(rdg(), "Pupper for you");
+  	PostImage(rdg(), "Dog for you");
 	this.res.end();
   }
 // 	else if(request.text && quote.test(request.text)){
